@@ -4,38 +4,38 @@ using System.Collections.Generic;
 
 public class MyStack
 {
-    private LinkedList<int> st;
+    private LinkedList<int> stack;
 
     public MyStack()
     {
-        st = new LinkedList<int>();
+        stack = new LinkedList<int>();
     }
 
     public void Push(int x)
     {
-        st.AddLast(x);
+        stack.AddLast(x);
     }
 
     public int pop()
     {
-        int top = st.Last.Value;
-        st.RemoveLast();
+        int top = stack.Last.Value;
+        stack.RemoveLast();
         return top;
 
     }
 
     public int top()
     {
-        return st.Last.Value;
+        return stack.Last.Value;
     }
 
     public bool Empty()
     {
-        return st.Count == 0;
+        return stack.Count == 0;
     }
 
 }
-class Program
+class Design_Stack_Using_LinkedList
 {
     static void Main(string[] args)
     {
