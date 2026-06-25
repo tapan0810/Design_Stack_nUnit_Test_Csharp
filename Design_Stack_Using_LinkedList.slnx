@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Design_Stack_Using_LinkedList.Tests/Design_Stack_Using_LinkedList.Tests.csproj" />
   <Project Path="Design_Stack_Using_LinkedList/Design_Stack_Using_LinkedList.csproj" />
 </Solution>
